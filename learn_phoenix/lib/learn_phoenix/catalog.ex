@@ -3,7 +3,7 @@ defmodule Catalog do
     ["Tomato", "Apple", "Potato"]
   end
 
-  def random_product(list) when is_list(list) do
+            def random_product(list) when is_list(list) do
     Enum.random(list)
   end
 
